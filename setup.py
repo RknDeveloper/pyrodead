@@ -38,14 +38,14 @@ if len(argv) > 1 and argv[1] in ["bdist_wheel", "install", "develop"]:
     errors_compiler.start()
 
 setup(
-    name="Pyrogram",
+    name="Pyrodead",
     version=version,
     description="Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots",
     long_description=readme,
     long_description_content_type="text/markdown",
-    url="https://github.com/pyrogram",
-    download_url="https://github.com/pyrogram/pyrogram/releases/latest",
-    author="Dan",
+    url="https://github.com/RknDeveloper",
+    download_url="https://github.com/RknDeveloper/pyrodead/releases/latest",
+    author="RknDeveloper",
     author_email="dan@pyrogram.org",
     license="LGPLv3",
     classifiers=[
@@ -73,14 +73,14 @@ setup(
     ],
     keywords="telegram chat messenger mtproto api client library python",
     project_urls={
-        "Tracker": "https://github.com/pyrogram/pyrogram/issues",
-        "Community": "https://t.me/pyrogram",
-        "Source": "https://github.com/pyrogram/pyrogram",
+        "Tracker": "https://github.com/RknDeveloper/pyrodead/issues",
+        "Community": "https://t.me/RknDeveloper",
+        "Source": "https://github.com/RknDeveloper/pyrodead",
         "Documentation": "https://docs.pyrogram.org",
     },
     python_requires="~=3.7",
     package_data={
-        "pyrogram": ["py.typed"],
+        "pyrodead": ["py.typed"],
     },
     packages=find_packages(exclude=["compiler*", "tests*"]),
     zip_safe=False,
